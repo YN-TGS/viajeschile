@@ -1,0 +1,67 @@
+body
+    {
+        margin: 0;
+        padding: 0;
+        font-family: "Cabin";
+    }
+
+.navbar
+    {
+        background: #373a3c 0% 0% no-repeat padding-box;
+
+    }
+.navbar-brand
+    {
+        font-family: "Lobster";
+        font-size: 2.313rem;
+
+    }
+
+#principal
+    {
+        margin-top: 5.25rem;
+    }
+
+#imgppal
+    {
+        height: 24rem;
+        
+    }
+#ppal_subtitle
+    {
+        font-weight: bold;
+        font-size: 1.25rem;
+    }
+.marcador
+    {
+        background-color: black !important;
+        border-radius: 50% !important; 
+        height: 1rem !important; 
+        width: 1rem !important;
+        list-style: none;
+    }
+.h3
+    {
+        font-size: 1.25rem;
+    }  
+#logotexto
+    {
+        font-family: Lobster;
+        font-weight: 400;
+        font-size: 1.875rem;
+    }
+#suscribete2
+    {
+        font-family: Cabin;
+        font-size: 1.875rem;
+    }
+#empezarbtn
+    {
+        margin-top: 2rem;
+    }
+footer
+    {
+        font-family: Lobster;
+        font-weight: 400;
+        font-size: 2.313rem;
+    }
