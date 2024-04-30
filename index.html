@@ -35,13 +35,13 @@
                         <a href="#" class="nav-link text-white">Inicio</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="nav-link text-white">Quienes Somos</a>
+                        <a href="#quienes-somos" class="nav-link text-white">Quienes Somos</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="nav-link text-white">Destacados</a>
+                        <a href="#destacados" class="nav-link text-white">Destacados</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="nav-link text-white">Contacto</a>
+                        <a href="#contacto" class="nav-link text-white">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -112,7 +112,7 @@ Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu ri
             <div class="row g-4 px-3 px-lg-0">
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
-                        <img src="./assets/img/card1.jpg" alt="" class="card-img-top" height="180">
+                        <img src="./assets/img/card1.jpg" alt="" class="card-img-top" height="180" data-bs-toggle="tooltip" title="Vista de un lago cerca de la cordillera">
                         <div class="card-body bg-info text-white">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante.</p>
                         </div>
@@ -120,7 +120,7 @@ Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu ri
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
-                        <img src="./assets/img/card2.jpg" alt="" class="card-img-top" height="180">
+                        <img src="./assets/img/card2.jpg" alt="" class="card-img-top" height="180" data-bs-toggle="tooltip" title="Majestuoso lago">
                         <div class="card-body bg-info text-white">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante.</p>
                         </div>
@@ -128,7 +128,7 @@ Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu ri
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
-                        <img src="./assets/img/card3.jpg" alt="" class="card-img-top" height="180">
+                        <img src="./assets/img/card3.jpg" alt="" class="card-img-top" height="180" data-bs-toggle="tooltip" title="Una vista al Salar de Atacama">
                         <div class="card-body bg-info text-white">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante.</p>
                         </div>
@@ -136,7 +136,7 @@ Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu ri
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
-                        <img src="./assets/img/card4.jpg" alt="" class="card-img-top" height="180">
+                        <img src="./assets/img/card4.jpg" alt="" class="card-img-top" height="180" data-bs-toggle="tooltip" title="Bosques pluviales">
                         <div class="card-body bg-info text-white">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante.</p>
                         </div>
@@ -146,6 +146,32 @@ Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu ri
         </div>
     </section>
 
+    <!-- Contacto -->
+    <section class="py-3 container d-none d-lg-block text-white" id="contacto">
+        <p class="h3 text-center text-uppercase my-3">Contacto</p>
+        <hr>
+        <div class="row">
+            <div class="col-10 col-lg-12">
+                <form action="" id="formulario" class="mt-4">
+                    <div class="mb-3">
+                      <label for="nombre" class="form-label">Nombre</label>
+                      <input id="nombre" type="text" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="asunto" class="form-label">Asunto</label>
+                      <input id="asunto" type="text" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="mensaje" class="form-label">Mensaje</label>
+                      <textarea id="mensaje" cols="30" rows="10" class="form-control" required></textarea>
+                    </div>
+                    <button class="btn btn-info text-white" data-bs-toggle="tooltip"
+                      data-bs-title="Enviar mensaje">Enviar</button>
+                  </form>
+
+            </div>
+        </div>
+    </section>
 
 
 
